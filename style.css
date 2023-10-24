@@ -1,0 +1,116 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+} 
+ *{
+    box-sizing: border-box;
+ }
+#top{
+    background-image: url(./Iamge/carousel-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#top::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: -80px;
+    left: 0;
+    background-color:rgba(0, 0, 0, .6);
+}
+header{
+
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    z-index: 1;
+    padding-top: 30px;
+}
+header .logo{
+    float: left;
+    width:20% ;
+    /* border: 1px solid red; */
+}
+header .logo h3{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 0px;
+    color:#fbaf32 ;
+}
+header .logo h3 span{
+    color:#719a0a ;
+}
+header .nav{
+    float: right;
+    width: 80%;
+    /* border: 1px solid red; */
+    text-align: right;
+}
+header .nav ul li{
+    display: inline-block;
+    
+}
+header .nav ul li :hover{
+    color:#fbaf32  !important;
+    
+}
+header .nav ul li a{
+    text-decoration: none;
+    color:white ;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    margin-right: 20px ;
+   
+}
+.active{
+    color: #fbaf32 !important;
+}
+header .nav ul li:last-child a{
+    margin-right: 0;
+}
+.best-quality{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-top: 190px;
+    padding-bottom:235px ;
+}
+.best-quality h2{
+    font-size: 60px;
+    line-height: 72px;
+    width: 700;
+    color: #ffff;
+}
+.best-quality h2 span{
+   color:#fbaf32 ; 
+}
+.best-quality p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight:400 ;
+    color: white;
+}
+.best-quality a{
+    text-decoration: none;
+    color: white;
+    background-color:#fbaf32 ;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-right:20px ;
+    border: 1px solid #fbaf32;
+}
+.best-quality a:last-child{
+    margin-right: 0;
+    background-color: #719a0a;
+    border: 1px solid #719a0a;
+}
+.best-quality a:hover{
+    background-color: transparent;
+}
+
